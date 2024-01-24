@@ -1,0 +1,11 @@
+x=float(input("enter the cost price of the material:"))
+y=float(input("enter the selling price of the material:"))
+amt=0
+if x<y:
+  amt=y-x
+  print("you have earned profit:",amt)
+elif x>y:
+  amt=x-y
+  print("you have loss:",amt)
+else:
+  print("neither profit nor loss")
